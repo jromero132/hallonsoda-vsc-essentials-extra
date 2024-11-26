@@ -1,0 +1,39 @@
+{
+  "name": "hallonsoda-vsc-essentials-extra",
+  "displayName": "Hallonsoda VSCode Essentials Extra",
+  "description": "These are the extra essentials Visual Studio Code extensions for team VCC Hallonsoda.",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#ffaaaa"
+  },
+  "version": "0.0.1",
+  "publisher": "jromero132",
+  "sponsor": {
+    "url": "https://buymeacoffee.com/jromero132"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jromero132/hallonsoda-vsc-essentials-extra.git"
+  },
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "christian-kohler.path-intellisense",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "visualstudioexptteam.vscodeintellicode",
+    "visualstudioexptteam.vscodeintellicode-completions",
+    "usernamehw.errorlens",
+    "njpwerner.autodocstring",
+    "njqdev.vscode-python-typehint"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+    }
+  }
+}
